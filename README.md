@@ -1,0 +1,2 @@
+# SeeDCorp
+portafolio personal
