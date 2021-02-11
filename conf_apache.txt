@@ -1,0 +1,49 @@
+<VirtualHost 162.214.186.57:80>
+  ServerName seedcharlie.co
+    ServerAlias mail.seedcharlie.co www.seedcharlie.co
+  DocumentRoot /home/seedch
+  ServerAdmin webmaster@seedcharlie.co
+  UseCanonicalName Off
+
+  # Enable backwards compatible Server Side Include expression parser for Apache versions >= 2.4.
+  # To selectively use the newer Apache 2.4 expression parser, disable SSILegacyExprParser in
+  # the user's .htaccess file.  For more information, please read:
+  #    http://httpd.apache.org/docs/2.4/mod/mod_include.html#ssilegacyexprparser
+
+
+    Alias /static /home/seedch/SeeDCorp/static
+
+    <Directory "/home/seedch/SeeDCorp/static">
+        Options FollowSymLinks
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+
+    Alias /media /home/seedch/SeeDCorp/media
+    <Directory "/var/www/awesomedjango/media">
+                Options FollowSymLinks
+                Order allow,deny
+                Allow from all
+                Require all granted
+    </Directory>
+
+
+    ErrorLog /home/seedch/public_html/logs/apis_error.log
+    CustomLog /home/seedch/public_html/logs/apis_access.log combined
+
+    WSGIPassAuthorization On
+    WSGIDaemonProcess seedcorp python-path=/home/seedch:/home/seedch/venvSeedCorp/lib/python3.9/site-packages
+    WSGIProcessGroup seedcorp
+    WSGIScriptAlias / /home/seedch/SeeDCorp/SeeDCorp/wsgi.py
+   
+    <Directory /home/seedch/SeeDCorp/SeeDCorp>
+        <Files wsgi.py>
+            Require all granted
+        </Files>
+    </Directory>
+
+  # To customize this VirtualHost use an include file at the following location
+  # Include "/etc/apache2/conf.d/userdata/std/2_4/seedch/seedcharlie.co/*.conf"
+</VirtualHost>
+ 
