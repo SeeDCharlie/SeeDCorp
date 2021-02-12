@@ -38,6 +38,12 @@
     WSGIScriptAlias / /home/seedch/SeeDCorp/SeeDCorp/wsgi.py
    
     <Directory /home/seedch/SeeDCorp/SeeDCorp>
+        Options ExecCGI Indexes
+
+        DirectoryIndex wsgi.py
+
+        AddHandler cgi-script .cgi
+        AddHandler wsgi-script .py
         <Files wsgi.py>
             Require all granted
         </Files>
