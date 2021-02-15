@@ -8,15 +8,15 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 """
 
 import os
-print("asdasd")
-
-
-from django.core.wsgi import get_wsgi_application
-
 sys.path.append('/home/seedch/SeeDCorp/SeeDCorp')
 
 # add the virtualenv site-packages path to the sys.path
 sys.path.append('/home/seedch/venvSeedCorp/lib/python3.9/site-packages')
+
+
+
+from django.core.wsgi import get_wsgi_application
+
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'SeeDCorp.settings')
 
