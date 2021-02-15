@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 """
 
 import os
+import sys
+
 sys.path.append('/home/seedch/SeeDCorp/SeeDCorp')
 
 # add the virtualenv site-packages path to the sys.path
