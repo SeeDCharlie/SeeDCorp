@@ -25,7 +25,7 @@
     1 - Header
 ------------------------------------*/
 header {
-  background-color: rgba(26, 10, 56, 0.53);
+  background-color: rgba(0, 0, 0, 0.53);
   color: #fff;
   z-index: 1000;
 }
@@ -58,7 +58,8 @@ header::after {
 }
 
 .contact i {
-  color: #ee1515;
+  
+  color: #FF2519;
   margin-right: 10px;
 }
 
@@ -76,7 +77,7 @@ header::after {
 }
 
 .login i {
-  color: #ee1515;
+  color: #FF2519;
   margin-right: 8px;
 }
 
@@ -99,7 +100,7 @@ header::after {
   display: inline-block;
   width: 40px;
   height: 40px;
-  border: 1px solid #ee1515;
+  border: 1px solid #FF2519;
   border-radius: 4px;
   line-height: 40px;
   text-align: center;
@@ -109,7 +110,7 @@ header::after {
 
 .social a:hover {
   color: #fff;
-  background-color: #ee1515;
+  background-color: #FF2519;
 }
 
 .navbar-brand img {
@@ -134,7 +135,7 @@ header::after {
 }
 
 .navbar-collapse .nav-link:hover {
-  color: #ee1515;
+  color: #FF2519;
 }
 
 .cart,
@@ -147,7 +148,7 @@ header::after {
 .cart:hover,
 .login-icon:hover,
 .search-icon:hover {
-  color: #ee1515;
+  color: #FF2519;
 }
 
 .cart {
@@ -157,7 +158,7 @@ header::after {
 form input.btn-primary:hover,
 form button.btn-primary:hover {
   background-color: #fff;
-  color: #ee1515;
+  color: #FF2519;
 }
 
 /*-----------------------------------
@@ -182,7 +183,7 @@ form button.btn-primary:hover {
 }
 
 .hero .slide-content span {
-  color: #ee1515;
+  color: #FF2519;
 }
 
 .hero .slide-content h1 {
@@ -195,7 +196,7 @@ form button.btn-primary:hover {
 }
 
 .hero .slide-content p {
-  color: #170936;
+  color: #474747;
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   padding: 35px 0 35px 30px;
@@ -240,7 +241,7 @@ form button.btn-primary:hover {
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
           clip-path: polygon(0 0, 100% 100%, 100% 0);
-  background-color: rgba(240, 0, 255, 0.1);
+  background-color: rgba(120, 0, 24, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +286,7 @@ form button.btn-primary:hover {
 .cta-content {
   padding: 30px 0 90px;
   color: #fff;
-  background-color: #ee1515;
+  background-color: #FF2519;
   position: relative;
   z-index: 1;
 }
@@ -294,7 +295,7 @@ form button.btn-primary:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(24, 9, 53, 0.77);
+  background-color: rgba(20, 20, 20, 0.77);
   position: absolute;
   top: -25px;
   left: -1px;
@@ -325,11 +326,11 @@ form button.btn-primary:hover {
 }
 
 .title .title-blue {
-  color: #26264b;
+  color: #000000 ;
 }
 
 .title .title-primary {
-  color: #ee1515;
+  color: #FF2519;
 }
 
 .services {
@@ -345,7 +346,7 @@ form button.btn-primary:hover {
 }
 
 .services h5 {
-  color: #26264b;
+  color: #000000 ;
   border-bottom: 2px solid #e7e7e7;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -365,12 +366,12 @@ form button.btn-primary:hover {
 
 .featured .media i {
   font-size: 24px;
-  color: #ee1515;
+  color: #FF2519;
 }
 
 .featured .media h5 {
   text-transform: uppercase;
-  color: #26264b;
+  color: #000000 ;
 }
 
 .featured .btn {
@@ -438,7 +439,7 @@ form button.btn-primary:hover {
 }
 
 .post-content h3 a {
-  color: #26264b;
+  color: #000000 ;
   font-weight: 600;
 }
 
@@ -452,7 +453,7 @@ form button.btn-primary:hover {
 }
 
 .post-content a:hover {
-  color: #26264b;
+  color: #000000 ;
 }
 
 .post-content .post-btn {
@@ -469,7 +470,7 @@ form button.btn-primary:hover {
 
 .post-content .post-btn:hover {
   color: #fff;
-  background-color: #ee1515;
+  background-color: #FF2519;
 }
 
 /*-----------------------------------
@@ -477,7 +478,7 @@ form button.btn-primary:hover {
 ------------------------------------*/
 .trust {
   padding: 75px 0;
-  background-color: #26264b;
+  background-color: #000000 ;
   color: #ddd;
   position: relative;
 }
@@ -572,7 +573,7 @@ form button.btn-primary:hover {
   padding: 65px 0 40px;
   margin-top: 23px;
   color: #fff;
-  background: #26264b;
+  background: #000000 ;
   border: 0px solid #fff;
   position: relative;
   overflow: hidden;
@@ -633,7 +634,7 @@ form button.btn-primary:hover {
 }
 
 .single-pricing:hover span {
-  background-color: #26264b;
+  background-color: #000000 ;
 }
 
 .single-pricing:hover .desc {
@@ -655,13 +656,13 @@ form button.btn-primary:hover {
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #ee1515;
+  background: url(../images/test-clients-bg.png) center center/cover no-repeat #FF2519;
 }
 
 .testimonials {
   padding: 95px 0 85px;
   color: #fff;
-  border-bottom: 1px solid #26264b;
+  border-bottom: 1px solid #000000 ;
 }
 
 .testimonials .test-img {
@@ -680,7 +681,7 @@ form button.btn-primary:hover {
 }
 
 .testimonials h5 {
-  color: #26264b;
+  color: #000000 ;
   margin-top: 15px;
 }
 
@@ -704,7 +705,7 @@ form button.btn-primary:hover {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: #26264b;
+  background-color: #000000 ;
   margin-bottom: 0;
   transition: all 0.2s ease-in-out;
 }
@@ -745,7 +746,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: url(../images/footer-bg.png) center center/cover no-repeat #000000 ;
 }
 
 /*-----------------------------------
@@ -771,7 +772,7 @@ footer {
 }
 
 .single-widget i {
-  color: #ee1515;
+  color: #FF2519;
 }
 
 .single-widget h6 {
@@ -847,8 +848,8 @@ span {
 
 .tags-widget a:hover {
   text-decoration: none;
-  color: #26264b;
-  background-color: #ee1515;
+  color: #000000 ;
+  background-color: #FF2519;
 }
 
 .subscribe-widget form {
@@ -871,7 +872,7 @@ span {
 }
 
 .subscribe-widget button {
-  background: #ee1515;
+  background: #FF2519;
   border: none;
   padding: 9px 14px;
   border-top-right-radius: 10px;
@@ -908,7 +909,7 @@ span {
 }
 
 .subscribe-widget .social-nav a:hover {
-  background-color: #ee1515;
+  background-color: #FF2519;
 }
 
 /*-----------------------------------
@@ -916,12 +917,12 @@ span {
 ------------------------------------*/
 .foot-note {
   padding: 35px 0;
-  background-color: #ee1515;
-  color: #26264b;
+  background-color: #FF2519;
+  color: #000000 ;
 }
 
 .foot-note a {
-  color: #26264b;
+  color: #000000 ;
 }
 
 .foot-note a:last-child {

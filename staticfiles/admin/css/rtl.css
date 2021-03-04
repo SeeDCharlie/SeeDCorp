@@ -109,22 +109,10 @@ thead th.sorted .text {
 }
 
 #changelist-filter {
-<<<<<<< HEAD
     border-left: none;
     border-right: none;
     margin-left: 0;
     margin-right: 30px;
-=======
-    right: auto;
-    left: 0;
-    border-left: none;
-    border-right: none;
-}
-
-.change-list .filtered .results, .change-list .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
-    margin-right: 0;
-    margin-left: 280px;
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
 }
 
 #changelist-filter li.selected {
@@ -136,14 +124,6 @@ thead th.sorted .text {
     margin-right: -15px;
 }
 
-<<<<<<< HEAD
-=======
-.filtered .actions {
-    margin-left: 280px;
-    margin-right: 0;
-}
-
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
 #changelist table tbody td:first-child, #changelist table tbody th:first-child {
     border-right: none;
     border-left: none;

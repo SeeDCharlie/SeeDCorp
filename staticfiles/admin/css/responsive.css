@@ -93,22 +93,14 @@ input[type="submit"], button {
 
     /* Changelist */
 
-<<<<<<< HEAD
     #toolbar {
-=======
-    #changelist #toolbar {
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
         border: none;
         padding: 15px;
     }
 
     #changelist-search > div {
         display: flex;
-<<<<<<< HEAD
         flex-wrap: nowrap;
-=======
-        flex-wrap: wrap;
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
         max-width: 480px;
     }
 
@@ -116,18 +108,13 @@ input[type="submit"], button {
         line-height: 22px;
     }
 
-<<<<<<< HEAD
     #toolbar form #searchbar {
-=======
-    #changelist #toolbar form #searchbar {
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
         flex: 1 0 auto;
         width: 0;
         height: 22px;
         margin: 0 10px 0 6px;
     }
 
-<<<<<<< HEAD
     #toolbar form input[type=submit] {
         flex: 0 1 auto;
     }
@@ -135,10 +122,6 @@ input[type="submit"], button {
     #changelist-search .quiet {
         width: 0;
         flex: 1 0 auto;
-=======
-    #changelist-search .quiet {
-        width: 100%;
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
         margin: 5px 0 0 25px;
     }
 
@@ -174,23 +157,13 @@ input[type="submit"], button {
     }
 
     #changelist-filter {
-<<<<<<< HEAD
         flex-basis: 200px;
-=======
-        width: 200px;
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
     }
 
     .change-list .filtered .results,
     .change-list .filtered .paginator,
     .filtered #toolbar,
     .filtered .actions,
-<<<<<<< HEAD
-=======
-    .filtered div.xfull {
-        margin-right: 230px;
-    }
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
 
     #changelist .paginator {
         border-top-color: #eee;
@@ -244,11 +217,7 @@ input[type="submit"], button {
     }
 
     textarea {
-<<<<<<< HEAD
         max-width: 100%;
-=======
-        max-width: 518px;
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
         max-height: 120px;
     }
 
@@ -533,7 +502,6 @@ input[type="submit"], button {
     /* Changelist */
 
     #changelist {
-<<<<<<< HEAD
         align-items: stretch;
         flex-direction: column;
     }
@@ -544,27 +512,6 @@ input[type="submit"], button {
 
     #changelist-filter {
         margin-left: 0;
-=======
-        display: flex;
-        flex-direction: column;
-    }
-
-    #changelist #toolbar {
-        order: 1;
-        padding: 10px;
-    }
-
-    #changelist .xfull {
-        order: 2;
-    }
-
-    #changelist-form {
-        order: 3;
-    }
-
-    #changelist-filter {
-        order: 4;
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
     }
 
     #changelist .actions label {
@@ -580,14 +527,6 @@ input[type="submit"], button {
         flex: 1 0 100%;
     }
 
-<<<<<<< HEAD
-=======
-    .change-list .filtered .results, .change-list .filtered .paginator,
-    .filtered #toolbar, .filtered .actions, .filtered div.xfull {
-        margin-right: 0;
-    }
-
->>>>>>> 51f8d907a1e8d655ad72c2c83fdeded3fe6c9bdb
     #changelist-filter {
         position: static;
         width: auto;
